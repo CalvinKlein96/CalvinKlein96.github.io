@@ -14,7 +14,7 @@ body {
 }
 
 #text {
-  color: #FFFFFF;
+  color: #bbbbbb;
   font-size: 15px;
   opacity: 0.9;
 }
@@ -37,8 +37,8 @@ body {
 
 #textbox {
   display: flex;
-  width: 40%;
-  max-width: 600px;
+  width: 80%;
+  max-width: 500px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -48,28 +48,28 @@ body {
   text-align: center;
   background: #1D1B1B;
   transition: transform 130ms ease-in-out;
-  border: #FFDDA1;
+  border: #42d3b4;
   border-style: solid;
-  border-radius: 20px;
+  border-width: 1px;
 }
 
 #textbox:hover {
 
   cursor: pointer;
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 #textbox h2 {
-  color: #ffc96b;
+  color: #42d3b4;
   font-size: 30px;
   margin-bottom: 10px;
   padding: 20px;
-  font-family: monospace;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   
 }
 
 #textbox p {
-  color: #FFDDA1;
+  color: #e0ddd7;
   font-size: 16px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
