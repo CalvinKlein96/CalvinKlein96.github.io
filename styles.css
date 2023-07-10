@@ -50,6 +50,7 @@ body {
   transition: transform 130ms ease-in-out;
   border: #FFDDA1;
   border-style: solid;
+  border-radius: 20px;
 }
 
 #textbox:hover {
