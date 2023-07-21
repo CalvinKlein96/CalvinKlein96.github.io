@@ -12,11 +12,11 @@ https://templatemo.com/tm-583-festava-live
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #F8CB2E;
-  --secondary-color:              #EE5007;
+  --primary-color:                #f8b12e;
+  --secondary-color:              #c71f51;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #EE5007;
-  --custom-btn-bg-hover-color:    #c01f27;
+  --custom-btn-bg-color:          #db1550;
+  --custom-btn-bg-hover-color:    #f8b12e;
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #7fffd4;
@@ -351,8 +351,8 @@ strong {
 -----------------------------------------*/
 .site-header {
   background-color: var(--primary-color);
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 
@@ -364,7 +364,7 @@ strong {
   top: 0;
   right: 0;
   left: 0;
-  margin-top: 51px;
+  margin-top: 30px;
 }
 
 .sticky-wrapper.is-sticky .navbar {
@@ -478,7 +478,7 @@ strong {
   position: relative;
   overflow: hidden;
   padding-top: 100px;
-  height: calc(100vh - 51px);
+  height: 100vh;
 }
 
 .hero-section small {
@@ -507,7 +507,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/edward-unsplash-blur.jpg');
+  background-image: url('../images/grainy_2.jpeg');
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
@@ -606,7 +606,7 @@ strong {
 
 .artists-hover {
   background-color: var(--primary-color);
-  background-color: rgba(248, 203, 46, 0.75);
+  background-color: #f8b12e;
   border-radius: var(--border-radius-medium);
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
@@ -645,7 +645,6 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
 .schedule-section {
-  background-image: url('../images/grey_back.jpeg') ;
   background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
@@ -666,7 +665,7 @@ strong {
 }
 
 .schedule-table thead th {
-  background-color: var(--secondary-color);
+  background-color: #f8b12e;
 }
 
 .schedule-table th,
@@ -682,7 +681,7 @@ strong {
 }
 
 .schedule-table thead th {
-  border-right: 1px solid #c7460a;
+  border-right: 1px solid #f8b12e;
   border-bottom-color: transparent;
 }
 
@@ -695,7 +694,7 @@ strong {
 }
 
 .schedule-table .pop-background-image {
-  background-image: url('../images/grainy.jpeg');
+  background-image: linear-gradient(110deg, #575757 10%, #8b8b8b);
 }
 
 .schedule-table .rock-background-image {
