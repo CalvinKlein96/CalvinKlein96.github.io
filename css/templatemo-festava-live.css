@@ -790,6 +790,10 @@ strong {
   border-radius: var(--border-radius-medium);
 }
 
+iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
 
 /*---------------------------------------
   CUSTOM FORM               
