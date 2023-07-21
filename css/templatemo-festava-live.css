@@ -365,7 +365,7 @@ strong {
   top: 0;
   right: 0;
   left: 0;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .sticky-wrapper.is-sticky .navbar {
@@ -970,10 +970,6 @@ iframe {
 
   .hero-section {
     padding-top: 150px;
-  }
-
-  .pricing-thumb {
-    padding: 35px;
   }
 
   .schedule-table h3 {
