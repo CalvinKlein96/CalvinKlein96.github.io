@@ -784,8 +784,29 @@ strong {
 
 
 /*---------------------------------------
+  Sponsors               
+-----------------------------------------*/
+.sponsor-section {
+  background-color: #ffffff
+}
+
+.sponsor-thumb {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/*---------------------------------------
   CONTACT               
 -----------------------------------------*/
+.contact-section {
+  background-color: #242424
+}
+
 .google-map {
   border-radius: var(--border-radius-medium);
 }
